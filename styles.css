@@ -115,3 +115,104 @@ footer a:hover {
         height: 40px;
     }
 }
+
+/* Reset del margine e padding per un layout uniforme */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #6a0dad;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #6a0dad;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #6a0dad;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+ul.features-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.features-list li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.feature-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    .feature-image {
+        max-width: 90%;
+    }
+}
