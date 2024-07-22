@@ -101,3 +101,120 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Reset del margine e padding per un layout uniforme */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #6a0dad;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #6a0dad;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #6a0dad;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #5a0b9d;
+}
+
+footer {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
